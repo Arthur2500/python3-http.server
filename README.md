@@ -14,7 +14,7 @@ services:
   python3-http.server:
     image: ghcr.io/arthur2500/python3-http.server:latest
     container_name: python3-http.server
-    restart: unless_stopped
+    restart: unless-stopped
     ports:
       - "8080:8080"
     volumes:
@@ -23,3 +23,4 @@ services:
 ```
 
 Replace `/path/to/data` with the directory you want to share.
+Go to https://localhost:8080 to access the Web Panel
