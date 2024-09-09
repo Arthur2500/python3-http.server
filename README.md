@@ -22,5 +22,5 @@ services:
 
 ```
 
-Replace `/path/to/data` with the directory you want to share.
+Replace `/path/to/data` with the directory you want to share.\
 Go to https://localhost:8080 to access the Web Panel
